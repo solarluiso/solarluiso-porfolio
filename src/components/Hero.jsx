@@ -1,24 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profileImage from "../assets/images/profileImage.jpg"; // Replace with the actual path
+import profileImage from "../assets/images/profileImage.jpg";
 
 const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="flex flex-row max-md:flex-col h-screen bg-[#2c5364] text-white overflow-hidden"
+      className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-hero text-white overflow-hidden"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
       {/* Left side with heading, subheading, and button */}
-      <div className="md:w-1/2 flex flex-col justify-start items-center p-8">
-        <h1 className="text-4xl font-bold mb-2">
-          Hi,
-          <br />I am Luiso
-        </h1>
-        <p className="text-lg mb-4">Web Developer</p>
+      <div className="flex flex-col items-center mb-8 md:w-1/2 md:order-1">
+        <h1 className="text-4xl font-bold mb-2">Your Name</h1>
+        <p className="text-lg mb-4">Subtitle or tagline goes here</p>
         <motion.button
           whileHover={{ scale: 1.1, rotate: 5 }}
           whileTap={{ scale: 0.9 }}
@@ -29,18 +26,18 @@ const Hero = () => {
       </div>
 
       {/* Centered profile image */}
-      <div className="md:w-1/2 flex-shrink-0 justify-start items-center p-8">
+      <div className="flex-shrink-0 md:w-1/2 mb-8 md:mb-0 md:order-2">
         <img
           src={profileImage}
           alt="Profile"
-          className="rounded-full w-40 h-40 md:w-48 md:h-48 object-cover"
+          className="rounded-full mx-auto w-full md:w-40 h-40 object-cover"
         />
       </div>
 
       {/* Right side with information elements */}
-      <div className="md:w-1/2 flex flex-col justify-center items-start p-8">
+      <div className="flex flex-col items-center md:w-1/2 md:order-3">
         <div className="mb-4">
-          <p className="text-lg">Location: Miami, FL</p>
+          <p className="text-lg">Location: City, Country</p>
         </div>
         <div className="mb-4">
           <p className="text-lg">Services Offered:</p>
@@ -52,7 +49,12 @@ const Hero = () => {
         </div>
         <div className="mb-4">
           <p className="text-lg">
-            <a href="/your-cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/your-cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-500"
+            >
               Download CV
             </a>
           </p>
