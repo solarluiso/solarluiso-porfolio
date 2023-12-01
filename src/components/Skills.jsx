@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-gradient-skills text-white h-screen flex flex-col justify-center items-center"
+      className="flex flex-col justify-center items-center text-white min-h-screen"
     >
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
         My Skills

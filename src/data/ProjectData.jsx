@@ -11,7 +11,8 @@ const useProjectData = () => {
         imgUrl: "src/assets/images/project1.jpg",
         projectLink: "https://example.com/project1",
         codeLink: "https://github.com/example/project1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit jlasdlfl.",
         tags: ["UI/UX", "Web App"],
       },
       {

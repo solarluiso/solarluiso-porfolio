@@ -1,76 +1,18 @@
-/* Reset some default styles */
-* {
+/* Apply basic styling to the entire app */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-/* Apply a modern font */
-body {
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  transition: background 0.5s ease-in-out;
 }
 
-/* Create a smooth scroll effect */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Set up a global container for content */
+/* Set up a container for content */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Smoothly changing background color on scroll */
-body {
-  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
-  color: #ffffff;
-  transition: background 0.5s ease-in-out;
-}
-
-/* Style the navigation bar */
-nav {
-  background: #0f4c75;
-  padding: 10px 0;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-nav li {
-  margin: 0 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #e4f9f5;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: color 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: #38a3a5;
-}
-
-#hero a {
-  background: #38a3a5;
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-#hero a:hover {
-  background: #0f4c75;
-}
-
-/* Add more sections and styles as needed */
+/* Styling for individual components can be added in their respective files */

@@ -7,15 +7,18 @@ const Hero = () => {
   return (
     <motion.div
       id="hero"
-      className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-hero text-white overflow-hidden"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
+      className="flex flex-col md:flex-row justify-center items-center text-white min-h-screen"
     >
       {/* Left side with heading, subheading, and button */}
-      <div className="flex flex-col items-center mb-8 md:w-1/2 md:order-1">
-        <h1 className="text-4xl font-bold mb-2">Your Name</h1>
-        <p className="text-lg mb-4">Subtitle or tagline goes here</p>
+      <div className="flex flex-col items-start mb-8 md:w-1/2 md:order-1">
+        <h1 className="text-4xl font-bold mb-2">
+          Hi,
+          <br />I am Luiso
+        </h1>
+        <p className="text-lg mb-10">Web Developer</p>
         <motion.button
           whileHover={{ scale: 1.1, rotate: 5 }}
           whileTap={{ scale: 0.9 }}
