@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import profileImage from "../assets/images/profileImage.jpg";
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
       className="flex flex-col md:flex-row justify-center items-center text-white min-h-screen"
     >
       {/* Left side with heading, subheading, and button */}
-      <div className="flex flex-col items-start mb-8 md:w-1/2 md:order-1">
+      <div className="flex flex-col items-start md:w-1/2">
         <h1 className="text-4xl font-bold mb-2">
           Hi,
           <br />I am Luiso
@@ -29,7 +30,7 @@ const Hero = () => {
       </div>
 
       {/* Centered profile image */}
-      <div className="flex-shrink-0 md:w-1/2 mb-8 md:mb-0 md:order-2">
+      <div className="flex-shrink-0 md:w-1/2">
         <img
           src={profileImage}
           alt="Profile"
@@ -38,17 +39,12 @@ const Hero = () => {
       </div>
 
       {/* Right side with information elements */}
-      <div className="flex flex-col items-center md:w-1/2 md:order-3">
+      <div className="flex flex-col items-start md:w-1/2">
         <div className="mb-4">
-          <p className="text-lg">Location: City, Country</p>
-        </div>
-        <div className="mb-4">
-          <p className="text-lg">Services Offered:</p>
-          <ul className="list-disc pl-4">
-            <li>Web Development</li>
-            <li>Frontend Design</li>
-            <li>Freelancing</li>
-          </ul>
+          <p className="text-lg">
+            Based in Miami, USA <br />I can assist you with the creation of
+            websites and updating existing web applications
+          </p>
         </div>
         <div className="mb-4">
           <p className="text-lg">
