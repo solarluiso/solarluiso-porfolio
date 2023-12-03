@@ -13,7 +13,7 @@ const useProjectData = () => {
         codeLink: "https://github.com/example/project1",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit jlasdlfl.",
-        tags: ["UI/UX", "Web App"],
+        tags: ["ReactJS", "Tailwind CSS", ""],
       },
       {
         title: "Project 2",
@@ -22,7 +22,7 @@ const useProjectData = () => {
         codeLink: "https://github.com/example/project2",
         description:
           "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        tags: ["Web App", "React JS"],
+        tags: ["NextJs", "Tailwind CSS"],
       },
       {
         title: "Project 3",
@@ -31,7 +31,7 @@ const useProjectData = () => {
         codeLink: "https://github.com/example/project3",
         description:
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-        tags: ["React JS"],
+        tags: ["React JS", "Sass"],
       },
       {
         title: "Project 4",
@@ -40,7 +40,7 @@ const useProjectData = () => {
         codeLink: "https://github.com/example/project4",
         description:
           "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
-        tags: ["UI/UX", "Web App"],
+        tags: ["Astro", "Tailwind CSS"],
       },
     ];
 

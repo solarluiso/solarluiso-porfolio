@@ -42,7 +42,7 @@ const Projects = () => {
 
       {/* Pills to categorize my applications */}
       <div className="flex flex-wrap justify-center space-x-2 mb-8">
-        {["UI/UX", "Web App", "React JS", "All"].map((item, index) => (
+        {["Astro", "React JS", "NextJS", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleProjectFilter(item)}
@@ -74,7 +74,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-full h-auto rounded-md"
               />
-              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80">
+              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-90">
                 <motion.a
                   href={project.projectLink}
                   target="_blank"
@@ -100,7 +100,7 @@ const Projects = () => {
               {project.description}
             </p>
 
-            <div className="mt-4">
+            <div className="flex justify-center mt-4">
               <span className="bg-green-500 text-white px-2 py-1 rounded-full text-sm">
                 {project.tags?.[0]}
               </span>

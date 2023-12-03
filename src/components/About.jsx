@@ -10,9 +10,9 @@ const About = () => {
         About Me
       </h2>
       <p className="text-lg md:text-xl lg:text-2xl mb-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus
-        rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos.
+        With a passion for coding, I strive to create unique and functional
+        websites that leave a lasting impression on users. I continuously expand
+        my knowledge and skills to deliver exceptional results for my clients.
       </p>
     </section>
   );

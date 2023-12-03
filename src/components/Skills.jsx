@@ -20,11 +20,13 @@ const Skills = () => {
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item flex flex-col justify-center items-center"
+              className="app__skills-item flex flex-col justify-center items-center pr-8"
               key={skill.name}
             >
               <div className="app__flex text-6xl">{skill.icon}</div>
-              <p className="p-text">{skill.name}</p>
+              <p className="p-text flex justify-center items-center">
+                {skill.name}
+              </p>
             </motion.div>
           ))}
         </motion.div>
