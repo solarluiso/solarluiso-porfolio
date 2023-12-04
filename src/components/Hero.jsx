@@ -11,19 +11,19 @@ const Hero = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="flex flex-col md:flex-row justify-center items-center text-white min-h-screen"
+      className=" flex min-h-screen flex-col items-center justify-center bg-darkTeal text-white md:flex-row"
     >
       {/* Left side with heading, subheading, and button */}
       <div className="flex flex-col items-start md:w-1/2">
-        <h1 className="text-4xl font-bold mb-2">
+        <h1 className="mb-2 text-4xl font-bold">
           Hi,
           <br />I am Luiso
         </h1>
-        <p className="text-lg mb-10">Web Developer</p>
+        <p className="mb-10 text-lg">Web Developer</p>
         <motion.button
           whileHover={{ scale: 1.1, rotate: 5 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-yellow-500 text-blue-800 px-4 py-2 rounded-full font-bold cursor-pointer"
+          className="cursor-pointer rounded-full bg-yellow-500 px-4 py-2 font-bold text-blue-800"
         >
           Hire Me
         </motion.button>
@@ -34,7 +34,7 @@ const Hero = () => {
         <img
           src={profileImage}
           alt="Profile"
-          className="rounded-full mx-auto w-full md:w-40 h-40 object-cover"
+          className="mx-auto h-40 w-full rounded-full object-cover md:w-40"
         />
       </div>
 
