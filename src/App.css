@@ -1,0 +1,17 @@
+#hero a {
+  background: #38a3a5;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    background 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+#hero a:hover {
+  background: #0f4c75;
+}
+
+/* Add more sections and styles as needed */
