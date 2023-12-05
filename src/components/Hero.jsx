@@ -20,13 +20,6 @@ const Hero = () => {
           <br />I am Luiso
         </h1>
         <p className="mb-10 text-lg">Web Developer</p>
-        <motion.button
-          whileHover={{ scale: 1.1, rotate: 5 }}
-          whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-full bg-yellow-500 px-4 py-2 font-bold text-blue-800"
-        >
-          Hire Me
-        </motion.button>
       </div>
 
       {/* Centered profile image */}
