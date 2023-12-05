@@ -15,6 +15,9 @@
 /* Apply a modern font */
 body {
   font-family: "Roboto", sans-serif;
+  /* color: #ffffff;
+  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  transition: background 0.5s ease-in-out; */
 }
 
 /* Create a smooth scroll effect */
@@ -30,11 +33,11 @@ html {
 }
 
 /* Smoothly changing background color on scroll */
-body {
+/* body {
   background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
   color: #ffffff;
   transition: background 0.5s ease-in-out;
-}
+} */
 
 /* Style the navigation bar */
 

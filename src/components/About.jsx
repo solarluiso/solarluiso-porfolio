@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex min-h-screen flex-col items-center justify-center bg-darkBrownAlpha text-white"
+      className="flex min-h-screen flex-col items-center justify-center bg-darkGray text-white"
     >
       <h2 className="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">
         About Me

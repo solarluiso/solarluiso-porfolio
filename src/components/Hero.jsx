@@ -11,28 +11,15 @@ const Hero = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className=" flex min-h-screen flex-col items-center justify-center bg-darkTeal text-white md:flex-row"
+      className=" flex min-h-screen flex-col items-center justify-between bg-darkTeal text-white md:flex-row"
     >
-      {/* Left side with heading, subheading, and button */}
+      {/* Left sided with heading, subheading, and button + information elements*/}
       <div className="flex flex-col items-start md:w-1/2">
-        <h1 className="mb-2 text-4xl font-bold">
+        <h1 className="mb-2 text-4xl">
           Hi,
           <br />I am Luiso
         </h1>
-        <p className="mb-10 text-lg">Web Developer</p>
-      </div>
-
-      {/* Centered profile image */}
-      <div className="flex-shrink-0 md:w-1/2">
-        <img
-          src={profileImage}
-          alt="Profile"
-          className="mx-auto h-40 w-full rounded-full object-cover md:w-40"
-        />
-      </div>
-
-      {/* Right side with information elements */}
-      <div className="flex flex-col items-start md:w-1/2">
+        <p className="mb-10 text-4xl font-bold">Web Developer</p>
         <div className="mb-4">
           <p className="text-lg">
             Based in Miami, USA <br />I can assist you with the creation of
@@ -67,6 +54,15 @@ const Hero = () => {
             <FaLinkedin className="text-2xl" />
           </a>
         </div>
+      </div>
+
+      {/* Right sided profile image */}
+      <div className="flex-shrink-0 md:w-1/2">
+        <img
+          src={profileImage}
+          alt="Profile"
+          className="mx-auto h-40 w-full rounded-full object-cover md:w-40"
+        />
       </div>
     </motion.div>
   );

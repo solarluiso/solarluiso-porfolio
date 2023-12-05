@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="app__navbar fixed z-[2] flex w-full items-center justify-between border border-solid border-[rgba(255,255,255,0.18)] bg-[rgba(255,255,255,0.25)] px-8 py-4 backdrop-blur-sm">
+    <nav className="app__navbar fixed z-[2] flex w-full items-center justify-between border border-solid border-[rgba(255,255,255,0.18)] bg-[rgba(255,255,255,0.25)] px-8 py-4 text-white backdrop-blur-sm">
       <div className="app__navbar-logo flex items-center justify-start">
         <h1 className="text-xl font-bold">Luiso</h1>
       </div>
