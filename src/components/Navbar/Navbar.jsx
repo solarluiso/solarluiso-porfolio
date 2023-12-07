@@ -10,8 +10,8 @@ const Navbar = () => {
       <div className="app__navbar-logo flex items-center justify-start">
         <h1 className="font-medium uppercase text-[#b7b1a8]">Luiso</h1>
       </div>
-      <ul className="app__navbar-links flex flex-1 list-none items-center justify-center max-md:hidden">
-        {["hero", "about", "skills", "projects", "contact"].map((item) => (
+      <ul className="app__navbar-links flex flex-1 list-none items-center justify-end max-md:hidden">
+        {["home", "about", "skills", "projects", "contact"].map((item) => (
           <li
             key={`link-${item}`}
             className="app__list group mx-4 my-0 flex cursor-pointer flex-col items-center "
@@ -44,7 +44,7 @@ const Navbar = () => {
               className="mx-4 my-2 h-[35px] w-[35px] text-[#86e8d2]"
             />
             <ul className="m-0 flex h-full w-full list-none flex-col items-start justify-start p-0">
-              {["hero", "about", "skills", "projects", "contact"].map(
+              {["home", "about", "skills", "projects", "contact"].map(
                 (item) => (
                   <li key={item} className="m-4">
                     <a

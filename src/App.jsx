@@ -4,7 +4,7 @@ import {
   About,
   Contact,
   Footer,
-  Hero,
+  Home,
   Navbar,
   Projects,
   Skills,
@@ -14,7 +14,7 @@ import "./App.css";
 const App = () => (
   <div>
     <Navbar />
-    <Hero />
+    <Home />
     <About />
     <Skills />
     <Projects />

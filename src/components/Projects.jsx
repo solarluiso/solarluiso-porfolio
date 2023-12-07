@@ -34,10 +34,10 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center bg-darkRed text-white"
+      className="flex min-h-screen flex-col items-center justify-center bg-[rgba(24,26,27,0.15)] text-white"
     >
       <h2 className="mb-6 text-center text-4xl font-bold">
-        My Ambitious <span className="text-yellow-500">Projects</span>
+        Top <span className="text-yellow-500">Projects</span>
       </h2>
 
       {/* Pills to categorize my applications */}

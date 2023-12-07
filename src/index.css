@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  /* background: linear-gradient(45deg, #0f2027, #203a43, #2c5364); */
+  background: linear-gradient(45deg, #203a43, #0f2027, #115949);
   transition: background 0.5s ease-in-out;
 }
 

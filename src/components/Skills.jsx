@@ -10,7 +10,7 @@ const Skills = () => {
     <section
       id="skills"
       className="flex
-        min-h-screen flex-col items-center justify-center bg-[linear-gradient(45deg,#0f2027,#203a43,#2c5364)] text-white"
+        min-h-screen flex-col items-center justify-center text-white"
     >
       <h2 className="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">
         My Skills
