@@ -1,14 +1,6 @@
 import React from "react";
 
-import {
-  About,
-  Contact,
-  Footer,
-  Home,
-  Navbar,
-  Projects,
-  Skills,
-} from "./components";
+import { About, Contact, Footer, Home, Navbar, Projects } from "./components";
 import "./App.css";
 
 const App = () => (
@@ -16,7 +8,6 @@ const App = () => (
     <Navbar />
     <Home />
     <About />
-    <Skills />
     <Projects />
     <Contact />
     <Footer />

@@ -11,7 +11,7 @@ const Navbar = () => {
         <h1 className="font-medium uppercase text-[#b7b1a8]">Luiso</h1>
       </div>
       <ul className="app__navbar-links flex flex-1 list-none items-center justify-end max-md:hidden">
-        {["home", "about", "skills", "projects", "contact"].map((item) => (
+        {["home", "about", "projects", "contact"].map((item) => (
           <li
             key={`link-${item}`}
             className="app__list group mx-4 my-0 flex cursor-pointer flex-col items-center "
@@ -44,19 +44,17 @@ const Navbar = () => {
               className="mx-4 my-2 h-[35px] w-[35px] text-[#86e8d2]"
             />
             <ul className="m-0 flex h-full w-full list-none flex-col items-start justify-start p-0">
-              {["home", "about", "skills", "projects", "contact"].map(
-                (item) => (
-                  <li key={item} className="m-4">
-                    <a
-                      href={`#${item}`}
-                      onClick={() => setToggle(false)}
-                      className="text-base font-medium uppercase text-[#b7b1a8] no-underline transition-all duration-[0.3s] ease-[ease-in-out] hover:text-[#86e2d2]"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ),
-              )}
+              {["home", "about", "projects", "contact"].map((item) => (
+                <li key={item} className="m-4">
+                  <a
+                    href={`#${item}`}
+                    onClick={() => setToggle(false)}
+                    className="text-base font-medium uppercase text-[#b7b1a8] no-underline transition-all duration-[0.3s] ease-[ease-in-out] hover:text-[#86e2d2]"
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
         )}

@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center bg-[rgba(24,26,27,0.15)] text-white"
+      className="flex min-h-screen flex-col items-center justify-center text-white"
     >
       <h2 className="mb-6 text-center text-4xl font-bold">
         Top <span className="text-yellow-500">Projects</span>
@@ -64,7 +64,7 @@ const Projects = () => {
       >
         {filterProjects.map((project, index) => (
           <motion.div
-            className="m-4 flex w-[270px] flex-col rounded-lg bg-white p-4 hover:scale-105"
+            className="m-4 flex w-[270px] flex-col rounded-lg bg-gray-600 p-4 hover:scale-105"
             key={index}
             whileHover={{ scale: 1.05 }}
           >
@@ -80,7 +80,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   whileHover={{ scale: 1.2 }}
-                  className="cursor-pointer text-green-700 hover:text-green-500"
+                  className="cursor-pointer text-[#115949] hover:text-green-500"
                 >
                   <AiFillEye className="text-4xl" />
                 </motion.a>
@@ -89,7 +89,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   whileHover={{ scale: 1.2 }}
-                  className="ml-4 cursor-pointer text-green-700 hover:text-green-500"
+                  className="ml-4 cursor-pointer text-[#115949] hover:text-green-500"
                 >
                   <AiFillGithub className="text-4xl" />
                 </motion.a>
@@ -101,7 +101,7 @@ const Projects = () => {
             </p>
 
             <div className="mt-4 flex justify-center">
-              <span className="rounded-full bg-green-500 px-2 py-1 text-sm text-white">
+              <span className="rounded-full bg-[#115949] px-2 py-1 text-sm text-white">
                 {project.tags?.[0]}
               </span>
             </div>
