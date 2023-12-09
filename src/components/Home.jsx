@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import profileImage from "../assets/images/profileImage.jpg";
+import profileImage from "../assets/images/profile-pic.png";
 
 const Home = () => {
   return (
@@ -11,6 +11,12 @@ const Home = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       className="flex min-h-screen flex-col items-center justify-between text-white md:flex-row"
+      style={{
+        backgroundImage:
+          "url('https://images.pexels.com/photos/7794440/pexels-photo-7794440.jpeg?auto=compress&cs=tinysrgb&w=600')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <div className="app__container mx-32 flex shrink grow basis-auto flex-row flex-wrap items-stretch justify-start self-auto pt-24">
         {/* Left sided with information elements */}
