@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center text-white"
+      className="flex min-h-screen flex-col items-center justify-center pt-24 text-white"
     >
       <h2 className="mb-6 text-center text-4xl font-bold">
         Top <span className="text-yellow-500">Projects</span>

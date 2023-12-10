@@ -2,8 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +10,10 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "jetbrains mono", sans-serif;
   color: #ffffff;
-  background: linear-gradient(45deg, #203a43, #0f2027, #115949);
-  transition: background 0.5s ease-in-out;
+  background-image: url("https://images.pexels.com/photos/4384147/pexels-photo-4384147.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
 }
 
 /* Set up a global container for content */
