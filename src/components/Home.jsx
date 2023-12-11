@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import profileImage from "../assets/images/profile-pic.png";
+import backgroundImage from "../assets/images/home-bg.jpg"; // import the background image
 
 const Home = () => {
   return (
@@ -12,15 +13,14 @@ const Home = () => {
       transition={{ duration: 1 }}
       className="flex min-h-screen flex-col items-center justify-between text-white md:flex-row"
       style={{
-        backgroundImage:
-          "url('https://images.pexels.com/photos/4069291/pexels-photo-4069291.jpeg?auto=compress&cs=tinysrgb&w=600')",
+        backgroundImage: `url(${backgroundImage})`, // use the imported image here
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="app__container mx-32 flex shrink grow basis-auto flex-row flex-wrap items-stretch justify-start self-auto pt-24">
+      <div className="app__container mx-36 flex shrink grow basis-auto flex-row flex-wrap items-stretch justify-start self-auto pt-16">
         {/* Left sided information elements */}
-        <div className="flex max-w-sm flex-col items-start px-4 md:w-1/2 xl:ml-32">
+        <div className="flex max-w-sm flex-col items-start pl-10 xl:ml-32">
           <h1 className="mb-1 text-4xl">
             Hi,
             <br />I am Luiso

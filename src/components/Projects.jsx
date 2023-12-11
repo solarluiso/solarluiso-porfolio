@@ -3,6 +3,7 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 import useProjectData from "../data/ProjectData.jsx";
+import backgroundImage from "../assets/images/projects-bg.jpg";
 
 const Projects = () => {
   const projects = useProjectData();
@@ -35,6 +36,11 @@ const Projects = () => {
     <section
       id="projects"
       className="flex min-h-screen flex-col items-center justify-center pt-24 text-white"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <h2 className="mb-6 text-center text-4xl font-bold">
         Top <span className="text-yellow-500">Projects</span>
