@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center pt-24 text-white"
+      className="flex min-h-screen flex-col items-center justify-center pt-24"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
