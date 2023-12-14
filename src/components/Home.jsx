@@ -31,13 +31,15 @@ const Home = () => {
             web applications.
           </p>
           <p className="mb-6 text-lg ">Based in Miami, USA </p>
-          <motion.button
-            whileHover={{ scale: 1.1, rotate: 5 }}
-            whileTap={{ scale: 0.9 }}
-            className="cursor-pointer rounded-md bg-[#115949] px-5 py-2 font-bold text-white"
-          >
-            Learn More
-          </motion.button>
+          <a href="#contact">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="cursor-pointer rounded-md bg-[#115949] px-5 py-2 font-bold text-white"
+            >
+              Contact Me
+            </motion.button>
+          </a>
         </div>
 
         {/* Right sided profile image */}
