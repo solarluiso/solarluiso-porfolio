@@ -35,12 +35,8 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center pt-24"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="flex min-h-screen flex-col items-center justify-center bg-cover bg-center pt-24"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <h2 className="mb-6 text-center text-4xl font-bold">
         Top <span className="text-yellow-500">Projects</span>

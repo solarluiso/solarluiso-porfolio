@@ -11,12 +11,8 @@ const Home = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="flex min-h-screen flex-col items-center justify-between text-white md:flex-row"
-      style={{
-        backgroundImage: `url(${backgroundImage})`, // use the imported image here
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="flex min-h-screen flex-col items-center justify-between bg-cover bg-center text-white md:flex-row"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="app__container mx-36 flex shrink grow basis-auto flex-row flex-wrap items-stretch justify-start self-auto pt-16">
         {/* Left sided information elements */}

@@ -10,12 +10,8 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex min-h-screen flex-col items-end justify-center"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="flex min-h-screen flex-col items-end justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="app__container mx-36 flex shrink grow basis-auto flex-col self-auto pt-36">
         {/* Bio */}
