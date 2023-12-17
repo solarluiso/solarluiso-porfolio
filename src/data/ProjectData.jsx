@@ -21,7 +21,7 @@ const useProjectData = () => {
         projectLink: "https://example.com/project2",
         codeLink: "https://github.com/example/project2",
         description:
-          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua jadsfuo.",
         tags: ["NextJs", "Tailwind CSS"],
       },
       {
